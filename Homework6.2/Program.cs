@@ -15,8 +15,7 @@ namespace Homework6._2
             for(int i = 1; i <= N; i++)
             {
                 Console.WriteLine(K);
-            }
-                
+            }       
         }
     }
 }

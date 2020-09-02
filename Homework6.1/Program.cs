@@ -18,7 +18,6 @@ namespace Homework6._1
                 sum += number % 10;
                 number/= 10;
             }
-
             Console.WriteLine(sum);
         }
     }
