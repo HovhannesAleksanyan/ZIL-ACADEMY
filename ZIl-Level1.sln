@@ -23,9 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework 5.4", "Homework 5.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework6.2", "Homework6.2\Homework6.2.csproj", "{D01D3B83-C6A6-4A34-B2DE-6234C790CF44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework6.3", "Homework6.3\Homework6.3.csproj", "{0EBB6E62-2C54-480F-84DE-1014100A7BF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework6.4", "Homework6.3\Homework6.4.csproj", "{0EBB6E62-2C54-480F-84DE-1014100A7BF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework6.4", "Homework6.4\Homework6.4.csproj", "{14066669-4309-451A-A47C-7DEFE9A8A51F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework6.3", "Homework6.4\Homework6.3.csproj", "{14066669-4309-451A-A47C-7DEFE9A8A51F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework6.5", "Homework6.5\Homework6.5.csproj", "{FE923D7E-5147-48B0-82D5-6213EBE183C7}"
 EndProject
