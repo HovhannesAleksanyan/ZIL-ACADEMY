@@ -73,16 +73,16 @@ namespace HOmewrok7
             Console.WriteLine("Enter a number");
             double product = 1;
             double N = double.Parse(Console.ReadLine());
-            for (double i = 1.1; i <= 1 + (N / 10); i += 0.1)                             //kisat
+            for (double i = 1.1; i <= 1 + (N / 10); i += 0.1)                             //mi hat pakasa vercnum
             {
                 product = product * i;
-                Console.WriteLine(product);
             }
+            Console.WriteLine(product);
 
         }
         static void TAsk12()
         {
-
+                                                                    //chi stacvel
         }
         static void TAsk13()
         {
@@ -116,9 +116,9 @@ namespace HOmewrok7
         }
         static void Task15()
         {
-
+                                                               //chi stacvel
         }
-        static void TAsk17()
+        static void TAsk16()
         {
             Console.WriteLine("Enter a number");
             int n = int.Parse(Console.ReadLine());
@@ -140,6 +140,23 @@ namespace HOmewrok7
             Console.WriteLine("Product of digits is {0}", product);
             Console.WriteLine("NUmber of digits is {0}", i);
         }
+        static void Task17()
+        {
+            Console.WriteLine("Enter a number");
+            int n = int.Parse(Console.ReadLine());
+            int smallestnumber = 10;
+            while (n != 0)
+            {
+                int digit = n % 10;
+                if (digit % 2 != 0 && digit < smallestnumber)
+                {
+                    smallestnumber = digit;
+                }
+                n /= 10;
+            }
+            Console.WriteLine(smallestnumber);
+        }
+        
         static void TASk18()
         {
             Console.WriteLine("Enter a number");
@@ -159,12 +176,12 @@ namespace HOmewrok7
         {
             Console.WriteLine("Enter a number");
             int n = int.Parse(Console.ReadLine());
-            int product=1;
+            int product = 1;
             while (n > 0)
             {
-                if (n % 10<7 && (n % 10) % 2 ==0)
+                if (n % 10 < 7 && (n % 10) % 2 == 0)
                 {
-                    product*= n % 10;
+                    product *= n % 10;
                 }
                 n /= 10;
             }
@@ -172,12 +189,23 @@ namespace HOmewrok7
         }
         static void TAsk20()
         {
-            Console.WriteLine("Enter a number");
+            int largestnumber = 0;
+            int smallestnumber = 10;
             int n = int.Parse(Console.ReadLine());
             while (n != 0)
             {
-
+                int digit = n % 10;
+                if (digit > largestnumber)
+                {
+                    largestnumber = digit;
+                }
+                if (digit < smallestnumber)
+                {
+                    smallestnumber = digit;
+                }
+                n /= 10;
             }
+            Console.WriteLine(Math.Pow((largestnumber - smallestnumber),2));
         }
         static void Main(string[] args)
         {
