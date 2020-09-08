@@ -239,6 +239,37 @@ namespace HOmewrok7
         }
         static void TAsk24()
         {
+            Console.WriteLine("Enter a number");
+            int n = int.Parse(Console.ReadLine());
+            while (n > 3)
+            {
+                n = n / 3;
+            }
+            if (n % 3 == 0)
+            {
+                Console.WriteLine("yes");
+            }
+            else
+            {
+                Console.WriteLine("no");
+            }
+        }
+        static void TAsk25()
+        {
+            Console.WriteLine("Enter a number");
+            int n = int.Parse(Console.ReadLine());
+            int k = (int)(Math.Log(n) / Math.Log(2));
+            Console.WriteLine(Math.Pow(2, k));
+        }
+        static void TAsk26()
+        {
+            Console.WriteLine("Enter a number");
+            int n = int.Parse(Console.ReadLine());
+            int k = (int)(Math.Log(n) / Math.Log(2));
+            Console.WriteLine(Math.Pow(2, k + 1));
+        }
+        static void TAsk27()
+        {
 
         }
 
