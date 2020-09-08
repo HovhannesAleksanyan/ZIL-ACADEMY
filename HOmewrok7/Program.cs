@@ -207,6 +207,41 @@ namespace HOmewrok7
             }
             Console.WriteLine(Math.Pow((largestnumber - smallestnumber),2));
         }
+        static void TAsk21()
+        {
+            Console.WriteLine("Enter a number");
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        }
+        static void task22()
+        {
+            Console.WriteLine("Enter a number");
+            int n = int.Parse(Console.ReadLine());
+            int sum = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    sum += i;
+                }
+            }
+            Console.WriteLine(sum);
+        }
+        static void Taask23()
+        {
+
+        }
+        static void TAsk24()
+        {
+
+        }
+
         static void Main(string[] args)
         {
         }
